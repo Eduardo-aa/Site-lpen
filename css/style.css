@@ -6,7 +6,9 @@ body {
   padding: 0 auto;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 
 #fundo-ne {
   background-color: white;
@@ -31,11 +33,11 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgb(209, 92, 25) ;
+  border-bottom: 1px solid #9370DB ;
   
 }
 .textos-ne h1{
-  color:rgb(209, 92, 25);
+  color: #9370DB;
   margin-bottom: 20px;
 }
 .foto-equipe {
@@ -50,12 +52,9 @@ body {
  width: 500px;
  height: auto;
  
- box-shadow: 6px 10px 5px 0px rgba(173,93,46,0.75);
- -webkit-box-shadow: 6px 10px 5px 0px rgba(173,93,46,0.75);
- -moz-box-shadow: 6px 10px 5px 0px rgba(173,93,46,0.75);
- box-shadow: 10px 10px 5px 0px rgba(209,92,25,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(209,92,25,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(209,92,25,0.75);
+ box-shadow: 10px 10px 5px 0px rgba(147,112,219,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(147,112,219,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(147,112,219,0.75);
 }
 .Eventos{
   background-color: white;
@@ -65,7 +64,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(209, 92, 25);
+  color: #9370DB;
   padding-bottom: 5px;
 
 }
@@ -100,11 +99,12 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 5px;
-  border-top: 1px solid rgb(209, 92, 25) ;
+  border-top: 1px solid #9370DB ;
   padding-top: 20px;
+  
 }
 .conteudo-premio h1{
-  color: rgb(209, 92, 25);
+  color: rgb(147, 112, 219);
   margin-bottom: 20px;
   
 }
@@ -157,18 +157,102 @@ body {
 .container-images img{
   width: 500px;
   height: 650px;
-  box-shadow: 6px 10px 5px 0px rgba(173,93,46,0.75);
-  -webkit-box-shadow: 6px 10px 5px 0px rgba(173,93,46,0.75);
-  -moz-box-shadow: 6px 10px 5px 0px rgba(173,93,46,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(209,92,25,0.75);
- -webkit-box-shadow: 10px 10px 5px 0px rgba(209,92,25,0.75);
- -moz-box-shadow: 10px 10px 5px 0px rgba(209,92,25,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(147,112,219,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(147,112,219,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(147,112,219,0.75);
 }
 /*footer*/
-footer {
-  background-color: white;
-  width: auto;
-  height: 50px;
+footer{
+  background-color:white;
   z-index: 2;
+ 
+ 
+}
+#footer_content{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  border-top: 1px solid rgb(147, 112, 219);
+  padding-top: 20px;
+  color: black;
 
 }
+#footer_content p:hover{
+ color:rgb(147, 112, 219) ;
+}
+.footer-list{
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-top: 20x;
+}
+footer h3{
+  color: rgb(147, 112, 219);
+
+
+}
+.copy{
+  background-color: white;
+  z-index: 2;
+  text-align: center;
+  color: #9370DB;
+}
+/* Estilos extras para a barra de rolagem e seu polegar no navegador webkit */
+/* Extras */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(147, 112, 219);
+}
+
+
+.Agendamentos{
+ background-color: white;
+ padding-top: 30px;
+}
+.Agendamentos-1{
+  background-color: white;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: black;
+ width: 80%;
+ font-size: 14px;
+ font-weight: 300;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ padding-bottom: 5px;
+ border-top: 1px solid #9370DB ;
+ 
+ 
+}
+.Agendamentos-1 h1{
+  color: rgb(147, 112, 219);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Agendamentos-1 p {
+  padding-bottom: 20px;
+}
+.Agendamentos-1 button{
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid #9370DB ;
+  height: 40px;
+  margin-bottom: 15px;
+  
+}
+.Agendamentos-1 button:hover{
+  color: #9370DB;
+  transition: 1s;
+  border: 1px solid #9370DB;
+}
+

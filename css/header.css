@@ -5,12 +5,13 @@ a {
     list-style-type: none;
     font: 400 1rem "Mukta", sans-serif;
   }
-  #app{
+  #cabeçalho{
     
     width: 80%;
   }
   header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 64px;
     width: 100%;
@@ -39,7 +40,7 @@ a {
   }
   
   .navigation_Link:hover {
-    color: rgb(209, 92, 25);
+    color: #9370DB;
   }
   
   .navigation_Link::after {
@@ -49,7 +50,7 @@ a {
     bottom: -2px;
     width: 60%;
     height: 1px;
-    background-color: rgb(209, 92, 25);
+    background-color: #9370DB;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.4s;
@@ -95,10 +96,10 @@ a {
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
-  
+    
   }
   .conteudo h1{
-    color:rgb(209, 92, 25);
+    color:#9370DB;
     margin-bottom: 10px;
     
   }
